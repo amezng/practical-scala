@@ -41,6 +41,12 @@ jobs:
         run: |
           ibmcloud login --apikey "${IBM_CLOUD_API_KEY}" -r "${IBM_CLOUD_REGION}" -g Default
           ibmcloud target -r ${IBM_CLOUD_REGION}
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.3
+        with: 
+           node-version: '12'
+      - run:  npm install -g yarn
 
       # Build the Docusaurus documentation
       - name: Build the documentation
