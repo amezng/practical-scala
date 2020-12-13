@@ -59,6 +59,4 @@ jobs:
       - name: Publish to IBM COS
         working-directory: ./
         run: |
-          echo "Current directory $GITHUB_WORKSPACE "
-          ls -al
-          $GITHUB_WORKSPACE/scripts/ibm_deploy.sh build
+          $GITHUB_WORKSPACE/scripts/ibm-deploy.sh build
