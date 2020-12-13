@@ -59,4 +59,4 @@ jobs:
       - name: Publish to IBM COS
         working-directory: ./
         run: |
-          sh $GITHUB_WORKSPACE/scripts/ibm-deploy.sh build
+          bash $GITHUB_WORKSPACE/scripts/ibm-deploy.sh build
