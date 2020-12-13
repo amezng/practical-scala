@@ -37,7 +37,7 @@ module.exports = {
           items: [
             {
               label: "Practical Scala Guide",
-              to: "docs/intro/intro",
+              to: "docs/",
             },
           ],
         },

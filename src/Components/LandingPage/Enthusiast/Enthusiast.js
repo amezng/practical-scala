@@ -23,8 +23,8 @@ const Enthusiast = () => {
                 src='https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=f05c14dd4db49f08a789e6449604c490'
               />
               <div>
-                <h2 style={{ marginTop: "40px" }}>Biden</h2>
-                <p>Senior Software Engineer,Expedia</p>
+                <h2 style={{ marginTop: "40px" }}>Joe</h2>
+                <p>Senior Software Engineer, ABC Corp</p>
               </div>
             </div>
           </div>
@@ -34,8 +34,8 @@ const Enthusiast = () => {
             <div className={styles.profileContainer}>
               <img className={styles.instr_pic} src='https://randomuser.me/api/portraits/men/36.jpg' />
               <div>
-                <h2 style={{ marginTop: "40px" }}>Donald</h2>
-                <p>Senior Software Engineer,Expedia</p>
+                <h2 style={{ marginTop: "40px" }}>Danny</h2>
+                <p>Senior Software Engineer, XYZ Corp</p>
               </div>
             </div>
 

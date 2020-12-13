@@ -18,7 +18,7 @@ function HeroSection() {
           A guide to building applications and microservices using <span className={styles.heighlightSub}>Scala</span>.
         </p>
         <div className={styles.startBtn}>
-          <Link className={styles.getStarted} to={useBaseUrl("docs/doc1")}>
+          <Link className={styles.getStarted} to={useBaseUrl("docs/")}>
             🚀 Start Building
           </Link>
         </div>
