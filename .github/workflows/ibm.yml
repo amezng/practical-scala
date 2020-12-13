@@ -51,7 +51,7 @@ jobs:
       # Build the Docusaurus documentation
       - name: Build the documentation
         run: |
-          yarn global add docusaurus
+          yarn global add @docusaurus/core@2.0.0-alpha.68
           yarn build
 
       # Publish the build files to the IBM COS
