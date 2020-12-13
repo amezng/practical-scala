@@ -8,8 +8,9 @@
 name: Build and Deploy docs to IBM Cloud
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 # Environment variables available to all jobs and steps in this workflow
 env:
@@ -17,38 +18,36 @@ env:
   IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
   IBM_CLOUD_REGION: us-south
   BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
-  PUBLIC_ENDPOINT: ${{ secrets.PUBLIC_ENDPOINT }} 
+  PUBLIC_ENDPOINT: ${{ secrets.PUBLIC_ENDPOINT }}
 
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Checkout
-      uses: actions/checkout@v2
+      # Download and Install IBM Cloud CLI
+      - name: Install IBM Cloud CLI
+        run: |
+          curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+          ibmcloud --version
+          ibmcloud config --check-version=false
+          ibmcloud plugin install -f cloud-object-storage
 
-    # Download and Install IBM Cloud CLI
-    - name: Install IBM Cloud CLI
-      run: |
-        curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
-        ibmcloud --version
-        ibmcloud config --check-version=false
-        ibmcloud plugin install -f cloud-object-storage
+      # Authenticate with IBM Cloud CLI
+      - name: Authenticate with IBM Cloud CLI
+        run: |
+          ibmcloud login --apikey "${IBM_CLOUD_API_KEY}" -r "${IBM_CLOUD_REGION}" -g default
+          ibmcloud target -r ${IBM_CLOUD_REGION}
 
-    # Authenticate with IBM Cloud CLI
-    - name: Authenticate with IBM Cloud CLI
-      run: |
-        ibmcloud login --apikey "${IBM_CLOUD_API_KEY}" -r "${IBM_CLOUD_REGION}" -g default
-        ibmcloud target -r ${IBM_CLOUD_REGION}
+      # Build the Docusaurus documentation
+      - name: Build the documentation
+        run: |
+          yarn build
 
-    # Build the Docusaurus documentation
-    - name: Build the documentation
-      run: |
-        yarn build
-
-    # Publish the build files to the IBM COS
-    - name: Publish to IBM COS
-      run: |
-        scripts/ibm_deploy.sh build
-
+      # Publish the build files to the IBM COS
+      - name: Publish to IBM COS
+        run: |
+          scripts/ibm_deploy.sh build
