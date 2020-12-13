@@ -57,5 +57,6 @@ jobs:
 
       # Publish the build files to the IBM COS
       - name: Publish to IBM COS
+        working-directory: .
         run: |
-          scripts/ibm_deploy.sh build
+          ./scripts/ibm_deploy.sh build
