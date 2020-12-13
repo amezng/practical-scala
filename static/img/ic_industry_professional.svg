@@ -1,0 +1,36 @@
+<svg id="ic_industry_professional" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.761" height="77.522" viewBox="0 0 84.761 77.522">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="12" height="4" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_1571" data-name="Rectangle 1571" width="43" height="43" transform="translate(30.406 5.297) rotate(45)" fill="#dfe2ef"/>
+  <rect id="Rectangle_1572" data-name="Rectangle 1572" width="14" height="8" transform="translate(38.406 61.966) rotate(45)" fill="#0ec4be"/>
+  <rect id="Rectangle_1570" data-name="Rectangle 1570" width="50" height="50" transform="translate(49.406) rotate(45)" fill="#0ec4be"/>
+  <g id="ic_laptop_man" transform="translate(-1001.594 -1023.574)">
+    <g id="Group_472" data-name="Group 472" transform="translate(1039.869 1038.517)">
+      <path id="Path_484" data-name="Path 484" d="M20200.6,6407.817v-4.477l12.313-3.979,3.854,3.979v4.477l2.238-1.368v-5.72a12.675,12.675,0,0,0-2.736-3.482,6.433,6.433,0,0,0-3.355-1.244l-1-2.487h-5.346a17.733,17.733,0,0,0-4.6,3.109,10.619,10.619,0,0,0-2.363,4.1v5.72Z" transform="translate(-20198.863 -6393.517)" fill="#253154"/>
+      <path id="Path_485" data-name="Path 485" d="M20200.943,6414.616s3.9,5.131,8.611,4.738,8.176-4.738,8.176-4.738v-4.1l-.746.746v-4.6l-3.98-4.1-12.061,4.1v4.6l-.748-.746Z" transform="translate(-20199.078 -6396.833)" fill="#dfe2ef"/>
+      <path id="Path_486" data-name="Path 486" d="M20199.43,6414.538s-2.609.249-1.863,2.114,1.863,1.243,1.863,1.243Z" transform="translate(-20197.432 -6401.232)" fill="#dfe2ef"/>
+      <path id="Path_487" data-name="Path 487" d="M20197.432,6414.538s2.609.249,1.865,2.114-1.865,1.243-1.865,1.243Z" transform="translate(-20178.443 -6401.232)" fill="#dfe2ef" stroke="#dfe2ef" stroke-width="1"/>
+      <g id="Repeat_Grid_39" data-name="Repeat Grid 39" transform="translate(5.131 11.483)" clip-path="url(#clip-path)">
+        <g transform="translate(-1051 -1060)">
+          <g id="Ellipse_150" data-name="Ellipse 150" transform="translate(1051 1060)" fill="#253154" stroke="#253154" stroke-width="1">
+            <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+            <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-1044 -1060)">
+          <g id="Ellipse_150-2" data-name="Ellipse 150" transform="translate(1051 1060)" fill="#253154" stroke="#253154" stroke-width="1">
+            <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+            <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_471" data-name="Group 471" transform="translate(1031 1057.545)">
+      <rect id="Rectangle_1573" data-name="Rectangle 1573" width="31" height="20" rx="4" transform="translate(3 -0.545)" fill="#253154"/>
+      <circle id="Ellipse_149" data-name="Ellipse 149" cx="2.5" cy="2.5" r="2.5" transform="translate(16 7.455)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

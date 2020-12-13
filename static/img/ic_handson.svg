@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.182" height="82.507" viewBox="0 0 89.182 82.507">
+  <g id="ic_handson" transform="translate(-58.675 33.507)">
+    <rect id="Rectangle_1560" data-name="Rectangle 1560" width="56" height="51" rx="11" transform="translate(76.857 -20)" fill="rgba(37,49,84,0.2)"/>
+    <rect id="Rectangle_1561" data-name="Rectangle 1561" width="54" height="4" rx="2" transform="translate(93.857 45)" fill="#253154"/>
+    <path id="ic_description_24px" d="M23.3,2H7.861A3.928,3.928,0,0,0,4.019,6L4,38a3.928,3.928,0,0,0,3.841,4H31.025a3.944,3.944,0,0,0,3.861-4V14Zm3.861,32H11.722V30H27.165Zm0-8H11.722V22H27.165ZM21.373,16V5L31.99,16Z" transform="translate(93.857 -6)" fill="#253154"/>
+    <path id="ic_wb_incandescent_24px" d="M5.656,32.616l2.575,2.575L11.5,31.9,8.925,29.329,5.656,32.616Zm13.6,7.14h3.652V34.369H19.261ZM6.478,17.935H1v3.652H6.478Zm20.087-7.651V1.5H15.609v8.783a10.956,10.956,0,1,0,10.956,0Zm9.13,7.651v3.652h5.478V17.935Zm-5.04,13.988,3.269,3.287L36.5,32.635l-3.287-3.269-2.556,2.556Z" transform="matrix(-1, 0.017, -0.017, -1, 100.536, 6.225)" fill="#5f72f2"/>
+  </g>
+</svg>

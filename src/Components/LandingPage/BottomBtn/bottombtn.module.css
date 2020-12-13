@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+.btn_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botm_btn_section {
+  margin: 20px 0;
+  padding: 40px 20px;
+}
+.start_btn {
+  font-family: "Open Sans", sans-serif;
+  width: 430px;
+  height: 62px;
+  border-radius: 3px;
+  box-shadow: 0 3px 37px 0 rgba(95, 114, 242, 0.75);
+  background-color: #5f72f2;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 62px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ececec;
+}
+.start_btn:hover {
+  color: white !important;
+  background-color: #7384f5;
+}
+
+@media screen and (max-width: 375px) {
+  .botm_btn_section {
+    margin: 0 !important;
+  }
+  .start_btn {
+    width: 270px !important;
+    height: 40px !important;
+    font-size: 1rem !important;
+    line-height: 40px !important;
+  }
+}

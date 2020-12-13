@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+.course_details {
+  width: 100%;
+  padding: 50px 0;
+  margin-bottom: 4rem;
+  background-color: rgba(236, 236, 236, 0.6);
+}
+.course_Info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+.course_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.course_list .course_text {
+  width: 160px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.124rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f72f2;
+  margin: 20px 0;
+}
+.course_list:nth-child(2) .course_text {
+  margin-top: 13px;
+}
+
+@media screen and (max-width: 653px) {
+  .course_Info {
+    flex-direction: column;
+  }
+}

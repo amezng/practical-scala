@@ -1,0 +1,340 @@
+/* Hexagon of Features whith icon */
+.hexagon .hexagon_shape:first-child .hexagon_shape_inner:before {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+.hexagon .hexagon_shape *,
+.hexagon .hexagon_shape *:before {
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+.features_icon {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+}
+.hex {
+  position: relative;
+  margin: 1em auto;
+  width: 10em;
+  height: 17.32em;
+  border-radius: 1em/0.5em;
+  background: orange;
+  transition: opacity 0.5s;
+}
+.hex:before,
+.hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.hex:before {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.hex:after {
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+/* Hexagone of AboutSection */
+.about_outer_hex {
+  position: absolute;
+  top: 0;
+  width: 3.4em;
+  height: 5.3em;
+  border-radius: 1em/0.4em;
+  transform: translate(-25px, -20px) rotate(53deg);
+  opacity: 0.3;
+  background-color: #30406a;
+}
+
+.about_outer_hex:before,
+.about_outer_hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.about_outer_hex:before {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg); /*Added for IE9*/
+  transform: rotate(60deg);
+}
+.about_outer_hex:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg); /*Added for IE9*/
+  transform: rotate(-60deg);
+}
+
+.about_inner_hexagon {
+  position: absolute;
+  opacity: 0.7;
+  background-color: #30406a;
+  transform: translate(-33px, 30px) rotate(-5deg);
+  width: 1.8em;
+  height: 3.3em;
+  border-radius: 1.5em/0.2em;
+}
+.about_inner_hexagon:before,
+.about_inner_hexagon:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.about_inner_hexagon:before {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg); /*Added for IE9*/
+  transform: rotate(60deg);
+}
+.about_inner_hexagon:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg); /*Added for IE9*/
+  transform: rotate(-60deg);
+}
+
+/* ///////////// Hexagon of Enthusianst ////////////////// */
+
+/* hexagon with title */
+.intro_hexagon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  transform: translate(10px, -25px) rotate(-5deg);
+}
+.intro_inner_hexagon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.8em;
+  height: 4em;
+  border-radius: 1em/0.5em;
+  background-color: #dfe2ef;
+  transform: translate(-10px, -18px) rotate(0deg);
+  z-index: 2;
+}
+.intro_inner_hexagon:before,
+.intro_inner_hexagon:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.intro_inner_hexagon:before {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg); /*Added for IE9*/
+  transform: rotate(60deg);
+}
+.intro_inner_hexagon:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg); /*Added for IE9*/
+  transform: rotate(-60deg);
+}
+.intro_outer_hexagon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4em;
+  height: 6.2em;
+  border-radius: 1em/0.5em;
+  background-color: #5f72f2;
+  opacity: 0.6;
+}
+.intro_outer_hexagon:before,
+.intro_outer_hexagon:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.intro_outer_hexagon:before {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg); /*Added for IE9*/
+  transform: rotate(60deg);
+}
+.intro_outer_hexagon:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg); /*Added for IE9*/
+  transform: rotate(-60deg);
+}
+
+/* Hexagon with pic */
+
+.hexapic .hexagon .hexagon_shape:first-child .hexagon_shape_inner:before {
+  background: #99d9ea;
+}
+
+.instr_pic {
+  width: 65px;
+  height: 65px;
+  z-index: 1000;
+}
+
+.hexagon {
+  position: absolute;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  transform: translate(-34px, -42px);
+}
+.hexagon .hexagon_shape {
+  position: absolute;
+  top: -90px;
+  left: -60px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 48px 0;
+  width: 190px;
+  height: 170px;
+  -webkit-transform: rotate(-30deg) skewX(30deg) scale(0.5);
+  -moz-transform: rotate(-30deg) skewX(30deg) scale(0.5);
+  -ms-transform: rotate(-30deg) skewX(30deg) scale(0.5);
+  -o-transform: rotate(-30deg) skewX(30deg) scale(0.5);
+  transform: rotate(-30deg) skewX(30deg) scale(0.5);
+  border-radius: 22px;
+}
+.hexagon .hexagon_shape *,
+.hexagon .hexagon_shape *:before {
+  display: block;
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+.hexagon .hexagon_shape .hexagon_shape_inner {
+  -webkit-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -moz-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -ms-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -o-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  opacity: 1;
+}
+.hexagon .hexagon_shape:first-child .hexagon_shape_inner:before,
+.hexagon .hexagon_shape .hexagon_shape_inner_2 {
+  -webkit-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -moz-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -ms-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  -o-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  content: "";
+}
+.hexagon .hexagon_content {
+  position: absolute;
+  padding: 12px 3px;
+  top: 0;
+  left: 0;
+}
+
+/* LargeHexagon */
+.hex {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 7em;
+  height: 12em;
+  border-radius: 1em/0.5em;
+  background-color: #30406a;
+  transform: translate(50px, 60px) rotate(45deg);
+  opacity: 0.3;
+  z-index: -1;
+}
+.hex:before,
+.hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.hex:before {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg); /*Added for IE9*/
+  transform: rotate(60deg);
+}
+.hex:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg); /*Added for IE9*/
+  transform: rotate(-60deg);
+}
+
+@media screen and (max-width: 375px) {
+  .intro_hexagon {
+    transform: translate(-2px, -27px) rotate(-5deg) !important;
+  }
+  .intro_outer_hexagon {
+    width: 3em !important;
+    height: 4.5em !important;
+    border-radius: 0.5em/0.5em !important;
+  }
+  .intro_inner_hexagon {
+    width: 1.9em !important;
+    height: 3em !important;
+    border-radius: 0.4em/0.3em !important;
+    transform: translate(-2px, -12px) rotate(-2deg) !important;
+  }
+  /* hexagon with Pic */
+  .hexapic .hexagon {
+    transform: translate(0px, -20px);
+    left: 40px !important;
+  }
+  .hexapic .hexagon .hexagon_shape {
+    width: 150px;
+    height: 130px;
+    border-radius: 12px;
+  }
+  .hexapic .hexagon .hexagon_content {
+    padding: 0 !important;
+    top: -2px !important;
+    left: -10px !important;
+  }
+  .instr_pic {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  /* //// hexagon with Icon /// */
+  .hexaicon .hexagon {
+    left: 107px !important;
+    transform: translate(0, -22px);
+  }
+  .hexaicon .hexagon .hexagon_shape {
+    width: 150px;
+    height: 130px;
+    border-radius: 12px;
+  }
+  .hexaicon .hexagon .hexagon_content {
+    padding: 0 !important;
+    left: -10px !important;
+  }
+  .features_icon {
+    padding: 0 !important;
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .hex {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro_header .intro_hexagon {
+    transform: translate(-10px, -25px) rotate(-5deg);
+  }
+}

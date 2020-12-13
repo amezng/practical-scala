@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+.about_instructor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 3rem 5rem 3rem 18rem;
+  background-color: #f1f1f1;
+}
+.about_header {
+  padding: 0 4em;
+  position: relative;
+  display: flex;
+}
+.about_header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 550;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #253154;
+  margin-left: 5px;
+}
+.about_content {
+  width: 100%;
+  display: flex;
+  padding: 0 4rem;
+}
+.about_content .about_details {
+  flex-basis: 5;
+  align-self: center;
+  margin-top: -3rem;
+  padding-top: 0.5rem;
+}
+.about_details h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: -15px;
+  color: #3b4a73;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+}
+.about_details p {
+  font-size: 1.25rem;
+  color: #a5aec0;
+  margin-top: 5rem;
+}
+.about_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about_img img {
+  width: 260px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_instructor {
+    padding: 3rem 5rem 0rem 12rem;
+  }
+  .about_content .about_details {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .about_instructor {
+    padding: 3rem 5rem !important;
+  }
+  .about_instructor .about_header {
+    margin: 3em 0 2em 0;
+    padding: 0 3em;
+  }
+  .about_instructor .about_content {
+    padding: 0 3.5em;
+  }
+}
+
+/* styles for tablets (responsive) */
+@media screen and (max-width: 768px) {
+  .about_instructor {
+    margin-top: 0 !important;
+    padding: 1rem 3rem 2rem 3rem !important;
+  }
+  .about_header {
+    margin-bottom: 0 !important;
+    padding-right: 0 !important;
+  }
+  .about_content {
+    padding-right: 0 !important;
+  }
+  .about_details {
+    padding-right: 0 !important;
+  }
+  .image {
+    transform: translate(-50%, 50%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .about_content {
+    flex-wrap: wrap-reverse;
+    padding: 0 !important;
+  }
+  .about_img {
+    justify-content: center;
+  }
+  .about_details {
+    padding-top: 1.2rem !important;
+  }
+}
+
+/* styles for 360px Mobile  (responsive) */
+@media screen and (max-width: 375px) {
+  .about_instructor {
+    margin-top: 0 !important;
+    padding: 50px 10px 10px 10px !important;
+  }
+  .about_header {
+    margin: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 4rem !important;
+  }
+  .about_header h1 {
+    font-size: 22px !important;
+  }
+  .about_content {
+    flex-wrap: wrap-reverse;
+    padding: 0 15px !important;
+  }
+  .about_details {
+    padding: 20px 10px !important;
+  }
+  .about_details p {
+    font-size: 15px !important;
+  }
+  .about_details h2 {
+    font-size: 14px !important;
+    color: #3b4a73;
+  }
+  .about_img {
+    justify-content: center;
+  }
+  .about_img img {
+    width: 180px !important;
+    height: 180px;
+  }
+}
